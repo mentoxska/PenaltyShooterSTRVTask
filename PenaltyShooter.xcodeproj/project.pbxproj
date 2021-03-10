@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9866FEFB502EC88BD920B12A /* Pods_PenaltyShooter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8976780F340F5E9B79748627 /* Pods_PenaltyShooter.framework */; };
+		A54A49C425F94A6400294717 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A49C325F94A6400294717 /* Strings.swift */; };
+		A54A49C725F94BB800294717 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A49C625F94BB800294717 /* UIFont+Extensions.swift */; };
+		A54A49CA25F94BD400294717 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A49C925F94BD400294717 /* UIImage+Extensions.swift */; };
+		A5BCD06325DE6FF200917929 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BCD06225DE6FF200917929 /* UIColor+Extensions.swift */; };
+		A5BCD06625DE8FB300917929 /* PulsingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BCD06525DE8FB300917929 /* PulsingLayer.swift */; };
+		A5C4F5B625DD6BA200D0DCDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C4F5B525DD6BA200D0DCDA /* AppDelegate.swift */; };
+		A5C4F5B825DD6BA200D0DCDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C4F5B725DD6BA200D0DCDA /* SceneDelegate.swift */; };
+		A5C4F5BA25DD6BA200D0DCDA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C4F5B925DD6BA200D0DCDA /* MainViewController.swift */; };
+		A5C4F5BD25DD6BA200D0DCDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C4F5BB25DD6BA200D0DCDA /* Main.storyboard */; };
+		A5C4F5BF25DD6BA600D0DCDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C4F5BE25DD6BA600D0DCDA /* Assets.xcassets */; };
+		A5F1F26B25E2C90D004AE41A /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F1F26A25E2C90D004AE41A /* URL+Extensions.swift */; };
+		A5F1F26F25E2CACE004AE41A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F1F26E25E2CACE004AE41A /* NetworkManager.swift */; };
+		A5F1F27225E2CB0B004AE41A /* URLRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F1F27125E2CB0B004AE41A /* URLRequest+Extensions.swift */; };
+		A5F1F27525E2CB38004AE41A /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F1F27425E2CB38004AE41A /* NetworkError.swift */; };
+		A5F1F27925E2CBB5004AE41A /* ShootResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F1F27825E2CBB5004AE41A /* ShootResult.swift */; };
+		A5F1F27F25E2CC65004AE41A /* ShootDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F1F27E25E2CC65004AE41A /* ShootDetails.swift */; };
+		A5F1F28325E2CE84004AE41A /* GetShootHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F1F28225E2CE84004AE41A /* GetShootHandler.swift */; };
+		A5F1F28825E2D2E1004AE41A /* ShootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F1F28725E2D2E1004AE41A /* ShootViewModel.swift */; };
+		A5F1F28C25E2D32C004AE41A /* ShootViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F1F28B25E2D32C004AE41A /* ShootViewModelProtocol.swift */; };
+		A5F1F29A25E3DFB4004AE41A /* circular_std_black_italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5F1F29925E3DFB4004AE41A /* circular_std_black_italic.otf */; };
+		A5F1F29E25E52DB5004AE41A /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F1F29D25E52DB5004AE41A /* Reachability.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B978496045FEE4CBB2C3A41 /* Pods-PenaltyShooter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenaltyShooter.release.xcconfig"; path = "Target Support Files/Pods-PenaltyShooter/Pods-PenaltyShooter.release.xcconfig"; sourceTree = "<group>"; };
+		51D9F739D63DA8B53FB9BE58 /* Pods-PenaltyShooter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenaltyShooter.debug.xcconfig"; path = "Target Support Files/Pods-PenaltyShooter/Pods-PenaltyShooter.debug.xcconfig"; sourceTree = "<group>"; };
+		8976780F340F5E9B79748627 /* Pods_PenaltyShooter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PenaltyShooter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54A49C325F94A6400294717 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		A54A49C625F94BB800294717 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		A54A49C925F94BD400294717 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		A5BCD06225DE6FF200917929 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		A5BCD06525DE8FB300917929 /* PulsingLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsingLayer.swift; sourceTree = "<group>"; };
+		A5C4F5B225DD6BA200D0DCDA /* PenaltyShooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PenaltyShooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C4F5B525DD6BA200D0DCDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5C4F5B725DD6BA200D0DCDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A5C4F5B925DD6BA200D0DCDA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A5C4F5BC25DD6BA200D0DCDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5C4F5BE25DD6BA600D0DCDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5C4F5C325DD6BA600D0DCDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F1F26A25E2C90D004AE41A /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		A5F1F26E25E2CACE004AE41A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A5F1F27125E2CB0B004AE41A /* URLRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extensions.swift"; sourceTree = "<group>"; };
+		A5F1F27425E2CB38004AE41A /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		A5F1F27825E2CBB5004AE41A /* ShootResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootResult.swift; sourceTree = "<group>"; };
+		A5F1F27E25E2CC65004AE41A /* ShootDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootDetails.swift; sourceTree = "<group>"; };
+		A5F1F28225E2CE84004AE41A /* GetShootHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetShootHandler.swift; sourceTree = "<group>"; };
+		A5F1F28725E2D2E1004AE41A /* ShootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootViewModel.swift; sourceTree = "<group>"; };
+		A5F1F28B25E2D32C004AE41A /* ShootViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootViewModelProtocol.swift; sourceTree = "<group>"; };
+		A5F1F29925E3DFB4004AE41A /* circular_std_black_italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = circular_std_black_italic.otf; sourceTree = "<group>"; };
+		A5F1F29D25E52DB5004AE41A /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5C4F5AF25DD6BA200D0DCDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9866FEFB502EC88BD920B12A /* Pods_PenaltyShooter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2595B5CBF1A27A2A27B7DFB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51D9F739D63DA8B53FB9BE58 /* Pods-PenaltyShooter.debug.xcconfig */,
+				2B978496045FEE4CBB2C3A41 /* Pods-PenaltyShooter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7264A533BB12E0C8AF423F75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8976780F340F5E9B79748627 /* Pods_PenaltyShooter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5B4C18C25E5496300A97C95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5C4F5B925DD6BA200D0DCDA /* MainViewController.swift */,
+				A5BCD06525DE8FB300917929 /* PulsingLayer.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A5BCD06125DE6FD100917929 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A5BCD06225DE6FF200917929 /* UIColor+Extensions.swift */,
+				A54A49C925F94BD400294717 /* UIImage+Extensions.swift */,
+				A54A49C625F94BB800294717 /* UIFont+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A5C4F5A925DD6BA200D0DCDA = {
+			isa = PBXGroup;
+			children = (
+				A5C4F5B425DD6BA200D0DCDA /* PenaltyShooter */,
+				A5C4F5B325DD6BA200D0DCDA /* Products */,
+				2595B5CBF1A27A2A27B7DFB4 /* Pods */,
+				7264A533BB12E0C8AF423F75 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5C4F5B325DD6BA200D0DCDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5C4F5B225DD6BA200D0DCDA /* PenaltyShooter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5C4F5B425DD6BA200D0DCDA /* PenaltyShooter */ = {
+			isa = PBXGroup;
+			children = (
+				A5B4C18C25E5496300A97C95 /* View */,
+				A5F1F28625E2D2CD004AE41A /* ViewModel */,
+				A5F1F28125E2CE49004AE41A /* APIHandler */,
+				A5F1F27725E2CB96004AE41A /* Models */,
+				A5F1F26925E2C845004AE41A /* Networking */,
+				A5C4F5B525DD6BA200D0DCDA /* AppDelegate.swift */,
+				A5C4F5B725DD6BA200D0DCDA /* SceneDelegate.swift */,
+				A5C4F5BB25DD6BA200D0DCDA /* Main.storyboard */,
+				A5C4F5BE25DD6BA600D0DCDA /* Assets.xcassets */,
+				A5C4F5C325DD6BA600D0DCDA /* Info.plist */,
+				A5F1F29825E3DF96004AE41A /* Resources */,
+				A5BCD06125DE6FD100917929 /* Extensions */,
+			);
+			path = PenaltyShooter;
+			sourceTree = "<group>";
+		};
+		A5F1F26925E2C845004AE41A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A5F1F26A25E2C90D004AE41A /* URL+Extensions.swift */,
+				A5F1F27125E2CB0B004AE41A /* URLRequest+Extensions.swift */,
+				A5F1F26E25E2CACE004AE41A /* NetworkManager.swift */,
+				A5F1F27425E2CB38004AE41A /* NetworkError.swift */,
+				A5F1F29D25E52DB5004AE41A /* Reachability.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A5F1F27725E2CB96004AE41A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5F1F27825E2CBB5004AE41A /* ShootResult.swift */,
+				A5F1F27E25E2CC65004AE41A /* ShootDetails.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5F1F28125E2CE49004AE41A /* APIHandler */ = {
+			isa = PBXGroup;
+			children = (
+				A5F1F28225E2CE84004AE41A /* GetShootHandler.swift */,
+			);
+			path = APIHandler;
+			sourceTree = "<group>";
+		};
+		A5F1F28625E2D2CD004AE41A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A5F1F28725E2D2E1004AE41A /* ShootViewModel.swift */,
+				A5F1F28B25E2D32C004AE41A /* ShootViewModelProtocol.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A5F1F29825E3DF96004AE41A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A54A49C325F94A6400294717 /* Strings.swift */,
+				A5F1F29925E3DFB4004AE41A /* circular_std_black_italic.otf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5C4F5B125DD6BA200D0DCDA /* PenaltyShooter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5C4F5C625DD6BA600D0DCDA /* Build configuration list for PBXNativeTarget "PenaltyShooter" */;
+			buildPhases = (
+				1F77639218F4F8E52C05B560 /* [CP] Check Pods Manifest.lock */,
+				A5C4F5AE25DD6BA200D0DCDA /* Sources */,
+				A5C4F5AF25DD6BA200D0DCDA /* Frameworks */,
+				A5C4F5B025DD6BA200D0DCDA /* Resources */,
+				A50F8F5A25DD6FED00AEA26A /* ShellScript */,
+				4555BD7AD31BD5339057BFAA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PenaltyShooter;
+			productName = PenaltyShooter;
+			productReference = A5C4F5B225DD6BA200D0DCDA /* PenaltyShooter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5C4F5AA25DD6BA200D0DCDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A5C4F5B125DD6BA200D0DCDA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = A5C4F5AD25DD6BA200D0DCDA /* Build configuration list for PBXProject "PenaltyShooter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5C4F5A925DD6BA200D0DCDA;
+			productRefGroup = A5C4F5B325DD6BA200D0DCDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5C4F5B125DD6BA200D0DCDA /* PenaltyShooter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5C4F5B025DD6BA200D0DCDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F1F29A25E3DFB4004AE41A /* circular_std_black_italic.otf in Resources */,
+				A5C4F5BF25DD6BA600D0DCDA /* Assets.xcassets in Resources */,
+				A5C4F5BD25DD6BA200D0DCDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F77639218F4F8E52C05B560 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PenaltyShooter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4555BD7AD31BD5339057BFAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PenaltyShooter/Pods-PenaltyShooter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PenaltyShooter/Pods-PenaltyShooter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PenaltyShooter/Pods-PenaltyShooter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A50F8F5A25DD6FED00AEA26A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5C4F5AE25DD6BA200D0DCDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C4F5BA25DD6BA200D0DCDA /* MainViewController.swift in Sources */,
+				A5F1F26B25E2C90D004AE41A /* URL+Extensions.swift in Sources */,
+				A5F1F28825E2D2E1004AE41A /* ShootViewModel.swift in Sources */,
+				A5C4F5B625DD6BA200D0DCDA /* AppDelegate.swift in Sources */,
+				A54A49C425F94A6400294717 /* Strings.swift in Sources */,
+				A5F1F26F25E2CACE004AE41A /* NetworkManager.swift in Sources */,
+				A54A49C725F94BB800294717 /* UIFont+Extensions.swift in Sources */,
+				A5BCD06625DE8FB300917929 /* PulsingLayer.swift in Sources */,
+				A5F1F27925E2CBB5004AE41A /* ShootResult.swift in Sources */,
+				A5F1F27225E2CB0B004AE41A /* URLRequest+Extensions.swift in Sources */,
+				A5F1F29E25E52DB5004AE41A /* Reachability.swift in Sources */,
+				A5F1F28C25E2D32C004AE41A /* ShootViewModelProtocol.swift in Sources */,
+				A5F1F27525E2CB38004AE41A /* NetworkError.swift in Sources */,
+				A5C4F5B825DD6BA200D0DCDA /* SceneDelegate.swift in Sources */,
+				A5F1F27F25E2CC65004AE41A /* ShootDetails.swift in Sources */,
+				A54A49CA25F94BD400294717 /* UIImage+Extensions.swift in Sources */,
+				A5BCD06325DE6FF200917929 /* UIColor+Extensions.swift in Sources */,
+				A5F1F28325E2CE84004AE41A /* GetShootHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5C4F5BB25DD6BA200D0DCDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5C4F5BC25DD6BA200D0DCDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5C4F5C425DD6BA600D0DCDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5C4F5C525DD6BA600D0DCDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5C4F5C725DD6BA600D0DCDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D9F739D63DA8B53FB9BE58 /* Pods-PenaltyShooter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XWUSFLQRP;
+				INFOPLIST_FILE = PenaltyShooter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BranislavJanicko.PenaltyShooter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A5C4F5C825DD6BA600D0DCDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B978496045FEE4CBB2C3A41 /* Pods-PenaltyShooter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XWUSFLQRP;
+				INFOPLIST_FILE = PenaltyShooter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BranislavJanicko.PenaltyShooter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5C4F5AD25DD6BA200D0DCDA /* Build configuration list for PBXProject "PenaltyShooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C4F5C425DD6BA600D0DCDA /* Debug */,
+				A5C4F5C525DD6BA600D0DCDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5C4F5C625DD6BA600D0DCDA /* Build configuration list for PBXNativeTarget "PenaltyShooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C4F5C725DD6BA600D0DCDA /* Debug */,
+				A5C4F5C825DD6BA600D0DCDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5C4F5AA25DD6BA200D0DCDA /* Project object */;
+}
