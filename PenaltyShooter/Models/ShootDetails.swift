@@ -8,7 +8,7 @@
 import Foundation
 
 struct ShootDetails {
-    var xPos: Float?
+    let xPos: Float?
     let yPos: Float?
     let radius: Float?
     
